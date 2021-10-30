@@ -15,13 +15,14 @@ import {
 function App() {
   return (
     <div className="App">
+            <SurveyForm/>
+
       <Router>
 
-        <Switch>
-          <Route exact path="/">
-          <SurveyForm/>
+        {/* <Switch>
+          <Route path="/">
           </Route>
-        </Switch>
+        </Switch> */}
       </Router>
     </div>
   );
